@@ -9,3 +9,19 @@ function whisper(word){
 function logShout(word){
   console.log(word.toUpperCase());
 }
+
+function logWhisper(word){
+  console.log(word.toLowerCase());
+}
+
+function sayHiToGrandma(word){
+  var WORD = word.toUpperCase();
+  switch (word) {
+    case word===WORD:
+      return "YES INDEED"
+      
+      
+    default:
+      
+  }
+}
