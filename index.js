@@ -21,6 +21,6 @@ function sayHiToGrandma(word){
   if word === lowercase{
     return "I can't hear you!"
   }
-  
+
   }
 }
