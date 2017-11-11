@@ -20,8 +20,8 @@ function sayHiToGrandma(word){
     case word===WORD:
       return "YES INDEED"
       
-      
+
     default:
-      
+
   }
 }
