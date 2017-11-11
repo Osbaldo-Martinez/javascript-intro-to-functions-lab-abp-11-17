@@ -23,7 +23,6 @@ function sayHiToGrandma(word){
       return "I can't hear you!";
     case word===uppercase:
       return "YES INDEED!"
-    default:
-      return "I love you, too."
+  
   }
 }
