@@ -15,13 +15,15 @@ function logWhisper(word){
 }
 
 function sayHiToGrandma(word){
-  var WORD = word.toUpperCase();
+  var lowercase = word.toLowerCase();
+  var uppercase = word.toUpperCase();
+  var mixedCase = word;
   switch (word) {
-    case word===WORD:
-      return "YES INDEED"
-      
-
+    case word===lowercase:
+      return "I can't hear you!";
+    case word===uppercase:
+      return "YES INDEED!"
     default:
-
+      return "I love you, too."
   }
 }
