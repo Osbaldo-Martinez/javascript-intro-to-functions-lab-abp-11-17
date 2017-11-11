@@ -20,7 +20,7 @@ function sayHiToGrandma(word){
   var mixedCase = word;
   if (word === lowercase){
     return "I can't hear you!"
-  }
+    }
 
   }
 }
